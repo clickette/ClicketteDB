@@ -18,9 +18,18 @@ bash compile.sh
 
 You may need to run `source ~/.bashrc` in order for the command to keep working.
 
-Finally, just run `xydb <database name>`
+Finally, just run `xydb <database name>.db`
 
 ## Commands
 
 Basically, you use this EXACTLY how you would use SQLite
 
+Here are the ADDED commands.
+
+```
+.exit - Exit the DB
+
+.btree - Shows the node tree and size
+
+.constants - Shows the constants for the leaf node
+```
