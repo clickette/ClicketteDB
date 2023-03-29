@@ -1,13 +1,13 @@
-xydb: xydb.c
-	gcc xydb.c -o xydb
+cdb: cdb.c
+	gcc cdb.c -o cdb
 
-run: xydb
-	./xydb mydb.db
+run: cdb
+	./cdb mydb.db
 
 clean:
-	rm -f xydb *.db
+	rm -f cdb *.db
 
-test: xydb
+test: cdb
 	bundle exec rspec
 
 format: *.c

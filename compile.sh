@@ -1,13 +1,11 @@
 #!/bin/bash
 
-#!/bin/bash
-
 cd
-rm -r XyDB
-git clone https://github.com/Xytrux/XyDB.git
-cd XyDB
+rm -r ClicketteDB
+git clone https://github.com/clickette/ClicketteDB.git
+cd ClicketteDB
 make
 cd ..
-echo "export PATH=\$PATH:~/XyDB" >> ~/.bashrc
+echo "export PATH=\$PATH:~/ClicketteDB" >> ~/.bashrc
 source ~/.bashrc
-xydb
+cdb

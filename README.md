@@ -1,4 +1,4 @@
-## XyDB
+## ClicketteDB
 
 A small and simple SQLite clone made with C
 
