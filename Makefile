@@ -1,13 +1,13 @@
-db: db.c
-	gcc db.c -o db
+xydb: xydb.c
+	gcc xydb.c -o xydb
 
-run: db
-	./db mydb.db
+run: xydb
+	./xydb mydb.db
 
 clean:
-	rm -f db *.db
+	rm -f xydb *.db
 
-test: db
+test: xydb
 	bundle exec rspec
 
 format: *.c
