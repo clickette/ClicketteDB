@@ -10,3 +10,4 @@ make
 cd ..
 echo "export PATH=\$PATH:~/XyDB" >> ~/.bashrc
 source ~/.bashrc
+xydb
